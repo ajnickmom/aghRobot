@@ -1,0 +1,146 @@
+body {
+    Background-color: black;
+    color:white
+}
+p {
+    color:grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.columns2 {
+    column-count: 2;
+    padding-bottom: 20px;
+}
+@font-face {
+    font-family: 'bebasregular';
+    src: url('BEBAS___-webfont.eot');
+    src: url('BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('BEBAS___-webfont.woff2') format('woff2'),
+         url('BEBAS___-webfont.woff') format('woff'),
+         url('BEBAS___-webfont.ttf') format('truetype'),
+         url('BEBAS___-webfont.svg#bebasregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#headername {
+    font-size: 80px;
+    font-family: 'bebasregular';
+    text-shadow: 4px 4px 4px #ad1313;
+    text-align: center;
+    color: slategrey;
+    padding: 20px 20px 10px 200px;
+    margin: 40px 0px;
+    font-weight: bold;
+}
+
+.imgcenter {
+    display: block;
+    padding:10px;
+    margin:auto;
+}
+#welcomeimage {}
+
+#coffeeofthemonth{}
+
+#welcometext{
+     column-count: 2;
+}
+
+#i3{}
+
+#i4 {}
+
+#i7{}
+
+#robo1 {}
+
+#imgrobo1{}
+
+#robo2 {}
+
+#imgrobo2 {}
+
+#robo3 {}
+
+#imgrobo3 {}
+
+#8 {}
+
+#16 {}
+
+#3ds {}
+
+#ss{}
+
+#vrh {}
+
+#producttemplate {}
+
+.navbar-background{}
+
+.submitbutton {}
+
+.headerlogo { 
+    position: relative;
+    bottom: 0;
+}
+
+.noBullets{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+#resize {
+    max-width: 8%;
+    max-height: 8%;
+}
+
+.searchbox{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    border: 3px solid rgb(206, 6, 6);
+}
+
+.navlink {
+    position: relative;
+    display: block;
+    float: left;
+    color:#ad1313;
+    font-family: "bebasregular";
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    padding: 14px 16px;
+    text-decoration: none;  
+}
+
+.active {
+        background-color: slategray;
+    }
+
+.doctorsWithoutBorders {
+    border: 0;
+    font-family: "bebasregular";
+    font-size: 20px;
+}
+
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ad1313;
+    text-align: center;
+    color: white;
+}
+.textcontent {}
+
+.mainlink {}
+
+.smalltext {}
+
+.backgroundgradient {}

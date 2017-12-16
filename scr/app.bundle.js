@@ -1,3 +1,7 @@
+import "jquery";
+import "bootstrap-loader";
+import "./style.sass";
+
 window.onload = function() {
    console.log("HELLO WORLD THIS IS BETTER MORE");
  };

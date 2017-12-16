@@ -2,23 +2,23 @@
 <html lang="en">
 <head>
   <title>Mr Robot!</title>
-  <link rel="stylesheet" href="style.css" type="text/css" />
+  <link rel="stylesheet" href="fire.css"/>
   </head>
   <body>
     <header>
         <div>
             <a class="headerlogo" href="index.html">
-                <img src="images/logo.jpg" />
+                <img id="resize" src="images/logo.jpg" />
             </a>
             <span id="headername">Mr. Robot</span>
             <input type="search" class="searchbox" placeholder="Search our store" />
         </div>
 
         <nav class="backgroundgradient">
-            <ul>
+            <ul class="noBullets">
               <li><a class="navlink" href="index.html">Home</a></li>
               <li><a class="navlink" href="robots.html">Robots</a></li>
-              <li><a class="navlink" href="computers.html">Hardware</a></li>
+              <li><a class="navlink active" href="computers.html">Hardware</a></li>
               <li><a class="navlink" href="contact.html">Contact</a></li>
               <li><a class="navlink" href="about.html">About</a></li>
             </ul>
@@ -26,18 +26,18 @@
     </header>
 
     <form>
-      <fieldset>
+      <fieldset class="doctorsWithoutBorders">
         <legend>Select a CPU</legend>
         <p><label for="i3"><input type="radio" name="CPU" id="i3">Intel i3</label></p>
         <p><label for="i4"><input type="radio" name="CPU" id="i4"></label>Intel i4</p>
         <p><label for="i7"><input type="radio" name="CPU" id="i7"></label>Intel i7</p>
       </fieldset>
-  <fieldset>
+  <fieldset class="doctorsWithoutBorders">
     <legend>Select Ram</legend>
     <p><label for="8"><input type="radio" name="ram" id="8">8gig</label></p>
     <p><label for="16"><input type="radio" name="ram" id="16">16gig</label></p>
   </fieldset>
-    <fieldset>
+    <fieldset="doctorsWithoutBorders">
       <legend></legend>
 
       <p><label for="vrh"><input type="checkbox" name="" id="vrh">Virtual Reality Helmet</label></p>

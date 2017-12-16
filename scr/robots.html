@@ -2,22 +2,22 @@
 <html lang="en">
 <head>
   <title>Mr Robot!</title>
-  <link rel="stylesheet" href="style.css" type="text/css" />
+  <link rel="stylesheet" href="fire.css"/>
   </head>
 <body>
   <header>
       <div>
           <a class="headerlogo" href="index.html">
-              <img src="images/logo.jpg" />
+              <img id="resize" src="images/logo.jpg" />
           </a>
           <span id="headername">Mr. Robot</span>
           <input type="search" class="searchbox" placeholder="Search our store" />
       </div>
 
       <nav class="backgroundgradient">
-          <ul>
+          <ul class="noBullets">
             <li><a class="navlink" href="index.html">Home</a></li>
-            <li><a class="navlink" href="robots.html">Robots</a></li>
+            <li><a class="navlink active" href="robots.html">Robots</a></li>
             <li><a class="navlink" href="computers.html">Hardware</a></li>
             <li><a class="navlink" href="contact.html">Contact</a></li>
             <li><a class="navlink" href="about.html">About</a></li>
@@ -25,7 +25,7 @@
       </nav>
   </header>
 
-<fieldset>
+<fieldset class="doctorsWithoutBorders">
 <legend>Mr. Robot's Top Robot Models</legend>
 
 <ul>
@@ -77,7 +77,7 @@
 <template id="producttemplate">
 <article>
   <label id="lblName" for="productimage">Name:</label>
-  <img id="pimage" name="productimage" class="productarticlelargeimage" src="" alt="product image">
+  <img id="pimage" name="productimage" class="productarticlelargeimage" class="imgcenter"src="" alt="product image">
   <article name="productdescription" class="productarticledescription" >
 
   </article>

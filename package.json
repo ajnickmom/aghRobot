@@ -2,7 +2,7 @@
   "name": "aghRobot",
   "version": "1.0.0",
   "description": "Hands-On with Robot Store Day One. Hands-On: Robot Store Day One Now that you have the HTML Navigation, Audio and Video, and Cross Browsers issues, it's time to put that knowledge to work. In this Hands-On exercise you will create a Robot Store to get some practical use combining these HTML Concepts with Cascading and Inheritance, Styling Fonts, Media Queries, Style and Layout, and Preprocessors in CSS. Hands-On projects are completed outside of the browser, using your IDE, or editor of choice.",
-  "main": "index.js",
+  "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
@@ -25,21 +25,16 @@
     "babel-loader": "^7.1.2",
     "babel-preset-es2015": "^6.24.1",
     "bootstrap": "^3.3.7",
-    "bootstrap-loader": "^2.2.0",
     "css-loader": "^0.28.7",
-    "file-loader": "^1.1.5",
-    "html-webpack-plugin": "^2.30.1",
+    "file-loader": "^1.1.6",
     "jquery": "^3.2.1",
     "node-sass": "^4.7.2",
-    "resolve-url-loader": "^2.2.1",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.19.1",
-    "url-loader": "^0.6.2",
     "webpack": "^3.10.0",
     "webpack-dev-server": "^2.9.7"
   },
   "dependencies": {
-    "bootstrap-sass": "^3.3.7",
-    "extract-text-webpack-plugin": "^3.0.2"
+    "bootstrap-sass": "^3.3.7"
   }
 }
