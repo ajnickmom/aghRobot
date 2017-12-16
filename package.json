@@ -1,0 +1,24 @@
+{
+  "name": "robot",
+  "version": "1.0.0",
+  "description": "robot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajnickmom/mrRobotProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajnickmom/mrRobotProject/issues"
+  },
+  "homepage": "https://github.com/ajnickmom/mrRobotProject#readme"
+}
